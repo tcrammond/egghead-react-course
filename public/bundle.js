@@ -24560,7 +24560,7 @@
 	        return React.createElement(
 	            'p',
 	            null,
-	            'Hi, im repos'
+	            'Repos! '
 	        );
 	    }
 	});
@@ -24582,7 +24582,7 @@
 	        return React.createElement(
 	            'p',
 	            null,
-	            'dat profile for ',
+	            'Profile for ',
 	            this.props.username
 	        );
 	    }
@@ -24605,7 +24605,7 @@
 	        return React.createElement(
 	            'p',
 	            null,
-	            'these notes'
+	            'Notes notes notes'
 	        );
 	    }
 	});
