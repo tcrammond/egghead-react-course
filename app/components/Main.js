@@ -1,0 +1,25 @@
+var React = require('react');
+
+// Creates a React component
+var Main = React.createClass({
+
+    // Specifies what the UI looks like for this component
+    render: function() {
+        return (
+            <div className="main-container">
+                <nav className="navbar navbar-default" role="navigation">
+                    <div className="col-sm-7 col-sm-offset-2" style={{marginTop: 15}}>
+                        MENU
+                    </div>
+                </nav>
+
+                <div className="container">
+                    {this.props.children}
+                </div>
+            </div>
+        );
+    }
+
+});
+
+module.exports = Main;
